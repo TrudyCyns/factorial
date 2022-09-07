@@ -1,3 +1,5 @@
+// Nabasirye Gertrude, Ssozi Martin Rukundo.
+
 /* eslint-disable no-param-reassign */
 /* eslint-disable no-plusplus */
 module.exports = function factorial(num) {
