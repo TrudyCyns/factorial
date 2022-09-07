@@ -12,10 +12,13 @@ describe('Factorial', () => {
   it('5! = 120', () => {
     assert.equal(factorial(5), 120);
   });
+  it('6! = 720', () => {
+    assert.equal(factorial(6), 720);
+  });
   it('7! = 5040', () => {
     assert.equal(factorial(7), 5040);
   });
-  it('10!', () => {
+  it('10! = 3628800', () => {
     assert.equal(factorial(10), 3628800);
   });
 });
