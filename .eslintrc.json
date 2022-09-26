@@ -9,6 +9,7 @@
         "no-process-exit":"off",
         "prefer-destructuring": "off",
         "node/no-unpublished-require": "off",
-        "no-undef": "warn"
+        "no-undef": "warn",
+        "prefer-arrow-callback": "off"
     }
 }
