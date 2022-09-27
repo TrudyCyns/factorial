@@ -2,12 +2,8 @@ const assert = require('assert');
 const { Given, When, Then } = require('@cucumber/cucumber');
 const app = require('../../../index');
 
-Given('today is Sunday', function () {
-  this.today = 'Sunday';
-});
-
-Given('today is Friday', function () {
-  this.today = 'Friday';
+Given('today is {string}', function (givenDay) {
+  this.today = givenDay;
 });
 
 When('I ask whether it is Friday yet', function () {
