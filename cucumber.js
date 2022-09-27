@@ -1,4 +1,4 @@
 module.exports = {
   default: `--format-options
-    '{"snippetInterface":"synchronous"}'`,
+    '{"snippetInterface":"synchronous"}', '--publish-quiet'`,
 };
